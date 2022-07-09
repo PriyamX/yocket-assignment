@@ -6,14 +6,17 @@
     
 # Selenium with Cucumber
 
- **** What is Cucumber?****
-        Cucumber is an open source tool that supports Behavior Driven Development (BDD) framework. It provides the facility to write tests in a human readable language called Gherkin.
-        Selenium tests UI while Cucumber does acceptance testing
+ ****What is Cucumber?****
+       
+    Cucumber is an open source tool that supports Behavior Driven Development (BDD) framework. 
+    It provides the facility to write tests in a human readable language called Gherkin. 
+    Selenium tests UI while Cucumber does acceptance testing
         
 ----------------------------------------------
 
   ****What is Gherkin?****
-        Gherkin uses a set of special keywords to give structure and meaning to executable specifications.
+         
+         Gherkin uses a set of special keywords to give structure and meaning to executable specifications.
 
           1. Primary Gherkin keywords are:
           2. Feature
@@ -46,10 +49,10 @@
 
 # Steps to Install:
 
-  git clone in Root directory of the system.
-  cd selenium-cucumber
-  mvn clean install -> may take some time for the first time.
-  Junit is being used to validate the tests.
+    git clone in Root directory of the system.
+    cd selenium-cucumber
+    mvn clean install -> may take some time for the first time.
+    Junit is being used to validate the tests.
   
   ------------------------------------------------------
   Note - For running test cases in Linux or Mac, make sure to add specific executable driver and change the path of executable driver in src\main\resources\drivers. 
